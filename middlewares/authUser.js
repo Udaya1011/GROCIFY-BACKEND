@@ -3,7 +3,7 @@ import jwt from "jsonwebtoken";
 const authUser = async (req, res, next) => {
   const { token } = req.cookies;
   if (!token) {
-    return res.status(401).json({ message: "Unauthorized", success: false });
+    return res.json({ message: "Unauthorized", success: false });
   }
   try {
     const decoded = jwt.verify(token, process.env.JWT_SECRET);
@@ -11,7 +11,7 @@ const authUser = async (req, res, next) => {
     next();
   } catch (error) {
     console.error("Error in authUser middleware:", error);
-    return res.status(401).json({ message: "Invalid token", success: false });
+    return res.json({ message: "Invalid token", success: false });
   }
 };
 
