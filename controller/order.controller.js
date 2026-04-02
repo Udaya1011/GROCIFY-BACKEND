@@ -4,7 +4,7 @@ import Stripe from "stripe";
 import dotenv from "dotenv";
 dotenv.config();
 
-const stripe = new Stripe(process.env.STRIPE_SECRET_KEY);
+const stripe = new Stripe(process.env.STRIPE_SECRET_KEY || "sk_test_mock_dummy_key_to_prevent_startup_crash");
 
 // Place order COD: /api/order/place
 export const placeOrderCOD = async (req, res) => {
