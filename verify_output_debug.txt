@@ -1,0 +1,15 @@
+﻿Connected to MongoDB for verification...
+Database Name: grocery-app
+-----------------------------------
+Found 9 users in 'users' collection:
+-----------------------------------
+- John Doe (john@example.com)
+- Jane Smith (jane@example.com)
+- Alice Johnson (alice@example.com)
+- Bob Brown (bob@example.com)
+- Charlie Davis (charlie@example.com)
+- Anisha (anisha@gmail.com)
+- Sudha (sudha@gmail.com)
+- Vino (vino@gmail.com)
+- Shreeja (shreeja@gmail.com)
+-----------------------------------

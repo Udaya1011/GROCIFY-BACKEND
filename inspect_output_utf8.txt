@@ -1,0 +1,51 @@
+Connected to MongoDB
+
+--- Users ---
+ID: 69953f642772cf3f3c4ebdcb (object), Email: john@example.com
+ID: 69953f642772cf3f3c4ebdcc (object), Email: jane@example.com
+ID: 69953f642772cf3f3c4ebdcd (object), Email: alice@example.com
+ID: 69953f642772cf3f3c4ebdce (object), Email: bob@example.com
+ID: 69953f642772cf3f3c4ebdcf (object), Email: charlie@example.com
+ID: 6995411b61ce3c7c4d3ea86f (object), Email: anisha@gmail.com
+ID: 6995411b61ce3c7c4d3ea872 (object), Email: sudha@gmail.com
+ID: 6995411c61ce3c7c4d3ea875 (object), Email: vino@gmail.com
+ID: 6995411c61ce3c7c4d3ea878 (object), Email: shreeja@gmail.com
+ID: 69a463df91f9c89d99b6c429 (object), Email: ani@gmail.com
+ID: 69ad1f5a914a02652143b02e (object), Email: kani@gmail.com
+ID: 69ad8669e520d92c36360ae8 (object), Email: malar@gmail.com
+ID: 69ad99ad95d0fec25f9c311a (object), Email: test@test.com
+ID: 69b3a752c422e47dbbb2bd93 (object), Email: testuser@gmail.com
+
+--- Orders ---
+Order ID: 697afb4a4f92805e4d776db8, UserID in Order: 697aeae576a4240c868bb142 (string), Amount: 330
+Order ID: 697afd7e4d39f503860a90a3, UserID in Order: 697aeae576a4240c868bb142 (string), Amount: 45
+Order ID: 697b0468f9b9c387ee78b5d2, UserID in Order: 697aeae576a4240c868bb142 (string), Amount: 107
+Order ID: 697ce1f2642f25d3024e2115, UserID in Order: 697aeae576a4240c868bb142 (string), Amount: 12
+Order ID: 69817d0d47961468e6db0a0d, UserID in Order: 697db26d3da2f5156fae6a84 (string), Amount: 377
+Order ID: 69817f4720a6f520ff4a886a, UserID in Order: 697db26d3da2f5156fae6a84 (string), Amount: 182
+Order ID: 69817f4920a6f520ff4a8884, UserID in Order: 697db26d3da2f5156fae6a84 (string), Amount: 182
+Order ID: 6982cd8d4435444c045621fe, UserID in Order: 697db26d3da2f5156fae6a84 (string), Amount: 40
+Order ID: 6984474cc095b4c264a86c3a, UserID in Order: 697db26d3da2f5156fae6a84 (string), Amount: 380
+Order ID: 69857667a5c15db4110363ef, UserID in Order: 697db26d3da2f5156fae6a84 (string), Amount: 15
+Order ID: 69857668a5c15db4110363f5, UserID in Order: 697db26d3da2f5156fae6a84 (string), Amount: 15
+Order ID: 6989743ec6ed2f6a18d6805e, UserID in Order: 69896b49c6ed2f6a18d6803c (string), Amount: 20
+Order ID: 69aeda34b184931fc46b33d2, UserID in Order: 69ad99ad95d0fec25f9c311a (string), Amount: 163
+Order ID: 69af9fdc1b71fee242c1ef9f, UserID in Order: 69ad8669e520d92c36360ae8 (string), Amount: 867
+Order ID: 69b4171e6195bfd4a8903ee9, UserID in Order: 69b3a752c422e47dbbb2bd93 (string), Amount: 20
+
+--- Matching Check ---
+Order 697afb4a4f92805e4d776db8 has NO matching user for ID 697aeae576a4240c868bb142
+Order 697afd7e4d39f503860a90a3 has NO matching user for ID 697aeae576a4240c868bb142
+Order 697b0468f9b9c387ee78b5d2 has NO matching user for ID 697aeae576a4240c868bb142
+Order 697ce1f2642f25d3024e2115 has NO matching user for ID 697aeae576a4240c868bb142
+Order 69817d0d47961468e6db0a0d has NO matching user for ID 697db26d3da2f5156fae6a84
+Order 69817f4720a6f520ff4a886a has NO matching user for ID 697db26d3da2f5156fae6a84
+Order 69817f4920a6f520ff4a8884 has NO matching user for ID 697db26d3da2f5156fae6a84
+Order 6982cd8d4435444c045621fe has NO matching user for ID 697db26d3da2f5156fae6a84
+Order 6984474cc095b4c264a86c3a has NO matching user for ID 697db26d3da2f5156fae6a84
+Order 69857667a5c15db4110363ef has NO matching user for ID 697db26d3da2f5156fae6a84
+Order 69857668a5c15db4110363f5 has NO matching user for ID 697db26d3da2f5156fae6a84
+Order 6989743ec6ed2f6a18d6805e has NO matching user for ID 69896b49c6ed2f6a18d6803c
+Order 69aeda34b184931fc46b33d2 matches user test@test.com
+Order 69af9fdc1b71fee242c1ef9f matches user malar@gmail.com
+Order 69b4171e6195bfd4a8903ee9 matches user testuser@gmail.com
